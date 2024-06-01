@@ -130,10 +130,10 @@ de "log", etc.
 #### 5. Configuração do Banco de Dados
    
 * Configurar banco de dados no arquivo application.properties do Spring Boot.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
  
 * Realizar o commit das mudanças ao repositório Git.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
  
 #### 6. Configuração do Dockerfile
 
