@@ -2,6 +2,8 @@ package br.com.prospertech.model;
 
 import jakarta.persistence.*;
 
+import java.math.BigDecimal;
+
 @Entity
 @Table(name="produtos")
 public class Produto {
@@ -13,8 +15,8 @@ public class Produto {
     @Column(name="nome", nullable = false, length = 100)
     private String nome;
 
-    @Column(name="preco", nullable = false, precision = 10, scale= 2)
-    private Double preco;
+    @Column(name="preco", nullable = false)
+    private BigDecimal preco;
 
     @Column(name="descricao", length = 255)
     private String descricao;
@@ -22,7 +24,7 @@ public class Produto {
     @Column(name="quantidade", nullable = false)
     private Integer quantidade;
 
-    public Produto(Long id, String nome, Double preco, String descricao, Integer quantidade) {
+    public Produto(Long id, String nome, BigDecimal preco, String descricao, Integer quantidade) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
@@ -46,11 +48,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public Double getPreco() {
+    public BigDecimal getPreco() {
         return preco;
     }
 
-    public void setPreco(Double preco) {
+    public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
 
