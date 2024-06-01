@@ -24,6 +24,10 @@ public class Produto {
     @Column(name="quantidade", nullable = false)
     private Integer quantidade;
 
+    public Produto() {
+
+    }
+
     public Produto(Long id, String nome, BigDecimal preco, String descricao, Integer quantidade) {
         this.id = id;
         this.nome = nome;

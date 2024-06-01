@@ -45,7 +45,7 @@ de "log", etc.
 
 ##### Adicionar um novo produto:
 
-    - Endpoint: /api/produtos
+    - Endpoint: /produtos
     - Método HTTP: POST
     - Parâmetro: Corpo da requisição contendo um objeto JSON com os dados do produto.
     - Descrição: Este endpoint adiciona um novo produto ao banco de dados.
@@ -60,14 +60,14 @@ de "log", etc.
 
 ##### Obter todos os produtos:
 
-    - Endpoint: `/api/produtos`
+    - Endpoint: `/produtos`
     - Método HTTP: GET
     - Parâmetro: Nenhum.
     - Descrição: Este endpoint retorna uma lista de todos os produtos cadastrados.
     - Exemplo de uso: `/api/produtos`
 
 ##### Obter um produto por ID:
-    - Endpoint: /api/produtos/{id}
+    - Endpoint: /produtos/{id}
     - Método HTTP: GET
     - Parâmetro: id (via URL)
     - Descrição: Este endpoint retorna um produto específico baseado no ID fornecido. Se o produto não for encontrado, 
@@ -76,7 +76,7 @@ de "log", etc.
 
 ##### Excluir um produto:
     
-    - Endpoint: /api/produtos/{id}
+    - Endpoint: /produtos/{id}
     - Método HTTP: DELETE
     - Parâmetro: id (via URL)
     - Descrição: Este endpoint exclui um produto específico baseado no ID fornecido.
@@ -84,7 +84,7 @@ de "log", etc.
 
 ##### Atualizar um produto existente:
 
-    - Endpoint: /api/produtos/{id}
+    - Endpoint: /produtos/{id}
     - Método HTTP: PUT
     - Parâmetro: 
         - id (via URL)
@@ -99,30 +99,6 @@ de "log", etc.
     "descricao": "Notebook Dell Inspiron atualizado",
     "quantidade": 8
     }
-
-##### Buscar produtos pelo nome
-    Endpoint: /api/produtos/buscar/nome
-    Método HTTP: GET
-    Parâmetro: nome (via query string)
-    Exemplo de uso: /api/produtos/buscar/nome?nome=Notebook
-    Descrição: Este endpoint chama o método findByNome do repositório para buscar produtos cujo nome corresponda 
-    ao parâmetro fornecido.
-
-##### Buscar produtos com preço menor que um valor específico
-    Endpoint: /api/produtos/buscar/preco/menor
-    Método HTTP: GET
-    Parâmetro: preco (via query string)
-    Exemplo de uso: /api/produtos/buscar/preco/menor?preco=1000.00
-    Descrição: Este endpoint chama o método findByPrecoLessThan do repositório para buscar produtos cujo preço 
-    seja menor que o valor fornecido.
-
-##### Buscar produtos com preço maior que um valor específico
-    Endpoint: /api/produtos/buscar/preco/maior
-    Método HTTP: GET
-    Parâmetro: preco (via query string)
-    Exemplo de uso: /api/produtos/buscar/preco/maior?preco=1000.00
-    Descrição: Este endpoint chama o método findByPrecoGreaterThan do repositório para buscar produtos cujo preço 
-    seja maior que o valor fornecido.
 
 * Realizar o commit das mudanças ao repositório Git.
 ![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)

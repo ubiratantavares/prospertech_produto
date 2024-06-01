@@ -9,9 +9,4 @@ import java.util.List;
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 
-    List<Produto> findByNome(String nome);
-
-    List<Produto> findByPrecoLessThan(Double preco);
-
-    List<Produto> findByPrecoGreaterThan(Double preco);
 }
