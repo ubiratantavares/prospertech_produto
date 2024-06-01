@@ -114,13 +114,13 @@ de "log", etc.
 #### 6. Configuração do Dockerfile
 
 * Criar um arquivo Dockerfile na raiz do seu projeto Spring Boot para construir a imagem do contêiner.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 * Especificar as etapas necessárias para construir e executar o aplicativo Spring Boot dentro do contêiner.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 * Realizar o commit das mudanças ao repositório Git.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 #### 7. Configuração do Docker Compose
 
