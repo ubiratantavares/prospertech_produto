@@ -125,13 +125,13 @@ de "log", etc.
 #### 7. Configuração do Docker Compose
 
 * Criar um arquivo docker-compose.yml para definir os serviços necessários, como o serviço "Web" e o banco de dados, e suas configurações.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 * Usar o Docker Compose para orquestrar e gerenciar os contêineres.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 * Realizar o commit das mudanças ao repositório Git.
-![tarefa pendente](https://img.shields.io/badge/status-pendente-red?style=flat-square&logo=times&logoColor=white)
+![tarefa realizada](https://img.shields.io/badge/status-realizada-brightgreen?style=flat-square&logo=check&logoColor=white)
 
 #### 8. Construção e Execução dos Contêineres
 
